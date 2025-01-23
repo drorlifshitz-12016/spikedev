@@ -2,7 +2,7 @@
 import hub
 
 # spikedev libraries
-from spikedev.motor import MotorSpeedDPS, SpikeMediumMotor
+from spikedev import MotorSpeedDPS, SpikeMediumMotor
 
 # Run the motor 720 degrees at 180 degrees-per-second
 print("Hello World")

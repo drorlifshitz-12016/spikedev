@@ -1,6 +1,6 @@
 # spikedev libraries
-from spikedev.button import ButtonLeft
-from spikedev.logging import log_msg
+from spikedev import ButtonLeft
+from spikedev import log_msg
 
 log_msg("start")
 btn = ButtonLeft()

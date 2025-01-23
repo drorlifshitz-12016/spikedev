@@ -17,11 +17,11 @@ import utime
 import hub
 
 # spikedev libraries
-from spikedev.motor import MotorSpeedPercent, SpikeLargeMotor, SpikeMediumMotor
-from spikedev.sensor import ColorSensor
-from spikedev.tank import MoveDifferential
-from spikedev.unit import DistanceInches, DistanceStuds
-from spikedev.wheel import SpikeLargeWheel
+from spikedev import MotorSpeedPercent, SpikeLargeMotor, SpikeMediumMotor
+from spikedev import ColorSensor
+from spikedev import MoveDifferential
+from spikedev import DistanceInches, DistanceStuds
+from spikedev import SpikeLargeWheel
 
 utime.sleep(1)
 # bulldozer: 0 is raised, -180 is lowered

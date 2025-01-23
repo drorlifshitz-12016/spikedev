@@ -2,8 +2,8 @@
 import hub
 
 # spikedev libraries
-from spikedev.logging import log_msg
-from spikedev.sensor import TouchSensor, TouchSensorMode
+from spikedev import log_msg
+from spikedev import TouchSensor, TouchSensorMode
 
 log_msg("start")
 ts = TouchSensor(hub.port.B, mode=TouchSensorMode.TOUCH)

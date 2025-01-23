@@ -27,7 +27,7 @@
 import utime
 
 # spikedev libraries
-from spikedev.logging import log_msg
+from spikedev import log_msg
 
 MAXINT = 2147483648
 MININT = MAXINT * -1

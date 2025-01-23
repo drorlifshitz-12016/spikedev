@@ -1,15 +1,13 @@
 # standard libraries
-import utime
 
 # third party libraries
 import hub
 
 # spikedev libraries
-from spikedev.differential import MoveDifferential
-from spikedev.logging import log_msg
-from spikedev.motor import MotorSpeedDPS, MotorSpeedPercent, MotorSpeedRPM, MotorStop, SpikeMediumMotor
-from spikedev.unit import DistanceInches, DistanceStuds
-from spikedev.wheel import SpikeWheel
+from spikedev import MoveDifferential
+from spikedev import MotorSpeedDPS
+from spikedev import DistanceInches, DistanceStuds
+from spikedev import SpikeWheel
 
 """
 tank = MoveTank(hub.port.E, hub.port.F)

@@ -5,8 +5,8 @@ import utime
 import hub
 
 # spikedev libraries
-from spikedev.logging import log_msg
-from spikedev.sensor import DistanceSensor, DistanceSensorMode
+from spikedev import log_msg
+from spikedev import DistanceSensor, DistanceSensorMode
 
 log_msg("start")
 ds = DistanceSensor(hub.port.A, mode=DistanceSensorMode.DISTL)

@@ -28,10 +28,10 @@ import math
 import utime
 
 # spikedev libraries
-from spikedev.logging import log_msg
-from spikedev.motor import _callback  # noqa: F401
-from spikedev.motor import _portletter2motor  # noqa: F401
-from spikedev.motor import (
+from spikedev import log_msg
+from spikedev import _callback  # noqa: F401
+from spikedev import _portletter2motor  # noqa: F401
+from spikedev import (
     MotorPolarity,
     MotorSpeed,
     MotorSpeedPercent,
@@ -44,7 +44,7 @@ from spikedev.motor import (
     _callback_E,
     _callback_F,
 )
-from spikedev.unit import distance_in_mm
+from spikedev import distance_in_mm
 
 
 class MoveTank:

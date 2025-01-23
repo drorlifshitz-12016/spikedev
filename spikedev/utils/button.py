@@ -5,8 +5,8 @@ import utime
 import hub
 
 # spikedev libraries
-from spikedev.logging import log_msg
-from spikedev.stopwatch import StopWatch
+from spikedev import log_msg
+from spikedev import StopWatch
 
 _buttons = {}
 
