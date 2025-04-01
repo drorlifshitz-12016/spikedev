@@ -367,3 +367,4 @@ class DistanceSensor(Sensor):
     def __init__(self, port, desc=None, mode=DistanceSensorMode.DISTL):
         super().__init__(port, desc)
         self.set_mode(mode)
+
