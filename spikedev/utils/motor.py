@@ -725,7 +725,7 @@ class Motor:
             self._wait()
 
 
-class SpikeMediumMotor(Motor):
+class SpikeSmallMotor(Motor):
     """
     * part number `54696 <https://brickset.com/parts/design-54696>`_
     * comes in set `45678-1 <https://brickset.com/sets/45678-1/>`_
@@ -750,7 +750,7 @@ class SpikeMediumMotor(Motor):
     MAX_DPS = 810  # degrees per second
 
 
-class SpikeLargeMotor(Motor):
+class SpikeMeduimMotor(Motor):
     """
     * part number `54675 <https://brickset.com/parts/design-54675>`_
     * comes in set `45678-1 <https://brickset.com/sets/45678-1/>`_
