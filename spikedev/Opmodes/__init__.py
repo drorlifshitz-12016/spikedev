@@ -3,7 +3,7 @@ from spikedev.utils.motor import MotorSpeedRPS, SpikeSmallMotor, SpikeMeduimMoto
 from spikedev.utils.sensor import ColorSensor
 from lib2to3.pgen2.tokenize import blank_re
 
-# configure motor to port B
+# configure motor and sensors
 motor = SpikeSmallMotor (hub.port.B)
 motor = SpikeMeduimMotor (hub.port.C)
 sensor = ColorSensor (hub.port.A)
