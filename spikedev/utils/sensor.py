@@ -335,7 +335,6 @@ class ColorSensor(Sensor):
         (red, green, blue) = self.rgb(scale_by_intensity)
         return rgb2lab(red, green, blue)
 
-
 class DistanceSensorMode:
     """
     * ``DISTL`` returns a number from 4 to 49
